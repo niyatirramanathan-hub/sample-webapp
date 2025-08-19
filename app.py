@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-MODEL_NAME = "/content/drive/MyDrive/1:1_Niyati_Ramanathan/Sample webapp/age_detector_model"
+MODEL_NAME = "age_detector_model"
 
 @st.cache_resource
 def load_model(model_name):
